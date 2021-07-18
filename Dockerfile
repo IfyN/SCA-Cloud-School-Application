@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY docker /usr/share/nginx/html
+COPY docker/second.html /usr/share/nginx/html/index.html
